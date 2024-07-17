@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link href="style.css" rel="stylesheet">
     <!-- Link to Roboto font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    !-- Link to Roboto font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Link to dynamic font from Google Fonts -->
+    <!-- Link to dynamic font from Google Fonts (example) -->
     <link href="https://fonts.googleapis.com/css2?family=Your+Dynamic+Font&display=swap" rel="stylesheet">
+    <!-- Particle.js library -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <title>Portfolio</title>
+    <!-- External JavaScript files -->
+    <script src="script.js"></script>
+    <script src="stars.js"></script>
+    <script src="navbar.js"></script>
 </head>
 
 <body>
@@ -25,9 +28,10 @@
         </nav>
         <div class="background" id="background"></div>
     </header>
+
     <section id="about">
-        <h1>Hello, </br> my name is Elena.</br> I'm a Freelance Frontend Developer.</h1>
-        <img class="photo" src="/images/Portfolio photo.jpeg>
+        <h1>Hello,<br> my name is Elena.<br> I'm a Freelance Frontend Developer.</h1>
+        <img class="photo" src="./images/Portfolio photo.jpeg" alt="Portfolio Photo">
         <div class="intro">
             <div class="intro-text">
                 <p>As a recent graduate of a Front-End Web Development bootcamp, 
@@ -37,14 +41,15 @@
                     I thrive both in collaborative team environments as well as working independently. 
                     I am eager to apply these skills in the real-world setting and make a positive impact through my work.</p>
             </div>
-            <a class="btn" href="https://github.com/RusLena?tab=stars" target="blank">My projects</a>
+            <a class="btn" href="https://github.com/RusLena?tab=stars" target="_blank">My projects</a>
         </div>
-
     </section>
+
     <section id="projects">
         <div id="title">
-            <h2>Recent work</h2>
+            <h2>Recent Work</h2>
         </div>
+
         <div class="project">
             <div class="project-content">
                 <h3>Personal Website</h3>
@@ -56,15 +61,14 @@
                     React-Icons.</p>
                 <strong>April 2024</strong>
             </div>
-
             <div class="project-image">
-                <img class="img" src="./images/project5.png">
+                <img class="img" src="./images/project5.png" alt="Project 1 Image">
                 <div class="btn-container">
-                    <button class="btn"
-                        onclick="window.open('https://g16-personal-website.netlify.app/', '_blank')">Netlify</button>
+                    <button class="btn" onclick="window.open('https://g16-personal-website.netlify.app/', '_blank')">Netlify</button>
                 </div>
             </div>
         </div>
+
         <div class="project">
             <div class="project-content">
                 <h3>Meow Finder</h3>
@@ -73,65 +77,60 @@
                     form and dropdown menu showcasing cat breeds. The catalogue page hosts a collection of cat profiles.
                     Developed using HTML, CSS, Bootstrap, APIs, JavaScript, and jQuery.</p>
                 <strong>March 2024</strong>
-
             </div>
             <div class="project-image">
-                <img class="img" src="./images/project4.png">
+                <img class="img" src="./images/project4.png" alt="Project 2 Image">
                 <div class="btn-container">
-                    <button class="btn"
-                        onclick="window.open('https://ruslena.github.io/meow-finder/', '_blank')">Github</button>
+                    <button class="btn" onclick="window.open('https://ruslena.github.io/meow-finder/', '_blank')">GitHub</button>
                 </div>
             </div>
         </div>
+
         <div class="project">
             <div class="project-content">
-                <h3>A command-line app for generating an HTML webpage</h3>
+                <h3>Team Generator OOP</h3>
                 <p>This application is designed to generate an HTML webpage that displays basic information about
                     employees. It prompts the user to enter information about the team manager, engineers, and interns,
                     and then generates an HTML page with their details.</p>
                 <strong>March 2024</strong>
-
             </div>
             <div class="project-image">
-                <img class="img" src="./images/project3.png">
+                <img class="img" src="./images/project3.png" alt="Project 3 Image">
                 <div class="btn-container">
-                    <button class="btn"
-                        onclick="window.open('https://github.com/RusLena/TeamGen-OOP.git', '_blank')">Github</button>
+                    <button class="btn" onclick="window.open('https://github.com/RusLena/TeamGen-OOP.git', '_blank')">GitHub</button>
                 </div>
             </div>
         </div>
+
         <div class="project">
             <div class="project-content">
-                <h3>Weather App</h3>
+                <h3>City Weather</h3>
                 <p>Weather application provides real-time weather information for cities worldwide. You can retrieve the
                     city's current weather conditions and view a 5-day forecast. Features of this app:
                     Search functionality for real-time weather information retrieval by city using API.
                     Integration of local storage for storing and retrieving user search history.
                     Display of buttons for quick access to past searches.
-                    Dynamic elements in the user interface based on fetched data. </p>
+                    Dynamic elements in the user interface based on fetched data.</p>
                 <strong>January 2024</strong>
             </div>
             <div class="project-image">
-                <img class="img" src="./images/project2.png">
+                <img class="img" src="./images/project2.png" alt="Project 4 Image">
                 <div class="btn-container">
-                    <button class="btn"
-                        onclick="window.open('https://ruslena.github.io/City-Weather/', '_blank')">GitHub</button>
+                    <button class="btn" onclick="window.open('https://ruslena.github.io/City-Weather/', '_blank')">GitHub</button>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <!-- Footer section -->
     <footer id="footer" class="end">
-        Contact Me :
+        Contact Me:
         <a class="ancor" href="mailto:my.portfolio.uk@outlook.com">Email</a>
         <a class="ancor" href="https://www.facebook.com/profile.php?id=61558666816390" target="_blank">Facebook</a>
-        <p> Copyright&copy; github.com/RusLena 2024</p> <p> Manchester, UK</p>
+        <p>Copyright&copy; github.com/RusLena 2024</p>
+        <p>Manchester, UK</p>
     </footer>
-    <script src="script.js"></script>
-    <script src="stars.js"></script>
-    <script src="navbar.js"></script>
+
 </body>
 
 </html>
