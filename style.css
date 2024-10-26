@@ -13,10 +13,10 @@ body {
 
 h1 {
     font-family: 'Your Dynamic Font', sans-serif;
-    animation: sparkle 10s ease infinite;/* Use the dynamic font */
+    animation: sparkle 10s ease infinite;/* Dynamic font */
     font-size: 2.5rem;
-    color: #fff; /* White text color */
-    margin-bottom: 2rem; /* Add margin below the heading */
+    color: rgb(185, 160, 221); 
+    margin-bottom: 2rem; 
 }
 @keyframes sparkle {
     0% { opacity: 1; }
@@ -113,7 +113,16 @@ header {
     color: #fff;
     margin-bottom: 10px;
 }
-
+h3 {
+    font-size: 1.5rem;
+    color: powderblue; 
+    margin-bottom: 1rem;  
+}
+h2 {
+    font-size: 1.7rem;
+    color: rgb(185, 160, 221); 
+    margin-bottom: 1rem;  
+}
 a.btn {
     text-decoration: none;
     color: #fff;
@@ -152,7 +161,7 @@ a.btn {
 }
 
 .project-image {
-    flex: 0 0 45%; /* Set the image width */
+    flex: 0 0 45%; /* image width */
     text-align: center; /* Align image and button to the right */
 }
 
@@ -190,7 +199,7 @@ a.btn {
         max-width: 100%;
     }
     .project-image img {
-        max-width: 190px; /* Ensure image doesn't exceed container width */
+        max-width: 190px; 
         height: 120px;
 }
 }
@@ -205,4 +214,28 @@ a.btn {
     padding: 2rem;
     background-color: #070216;
     color: #fff;
+}
+
+.testimony p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    justify-content: center; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: rgb(185, 160, 221); 
+    margin-bottom: 0.5rem; 
 }
