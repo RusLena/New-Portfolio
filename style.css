@@ -216,13 +216,13 @@ a.btn {
     color: #fff;
 }
 
-.testimony p {
+.testimonial p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #fff;
     margin-bottom: 10px;
 }
-.testimony {
+.testimonial {
     display: flex;
     flex-direction: column;
     align-items: center;
