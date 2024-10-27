@@ -1,4 +1,6 @@
-body, h2, h3 {
+body,
+h2,
+h3 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,15 +15,25 @@ body {
 
 h1 {
     font-family: 'Your Dynamic Font', sans-serif;
-    animation: sparkle 10s ease infinite;/* Dynamic font */
+    animation: sparkle 10s ease infinite;
+    /* Dynamic font */
     font-size: 2.5rem;
-    color: rgb(185, 160, 221); 
-    margin-bottom: 2rem; 
+    color: rgb(185, 160, 221);
+    margin-bottom: 2rem;
 }
+
 @keyframes sparkle {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .background {
@@ -31,14 +43,8 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #070216;
-    background-position: center; 
-}
-
-.star {
-    position: absolute;
-    background-color: #FFF;
-    border-radius: 50%;
+    background-color: #12082f;
+    background-position: center;
 }
 
 #navbar {
@@ -84,7 +90,7 @@ header {
     padding-top: 2rem;
     text-align: center;
     justify-content: center;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 .photo {
@@ -99,10 +105,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; 
-    justify-content: center; 
-    margin-left: 10%; 
-    margin-right: 10%; 
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -113,16 +119,19 @@ header {
     color: #fff;
     margin-bottom: 10px;
 }
+
 h3 {
     font-size: 1.5rem;
-    color: powderblue; 
-    margin-bottom: 1rem;  
+    color: powderblue;
+    margin-bottom: 1rem;
 }
+
 h2 {
     font-size: 1.7rem;
-    color: rgb(185, 160, 221); 
-    margin-bottom: 1rem;  
+    color: rgb(185, 160, 221);
+    margin-bottom: 1rem;
 }
+
 a.btn {
     text-decoration: none;
     color: #fff;
@@ -139,7 +148,7 @@ a.btn {
     background-color: rgba(161, 173, 227, 0.5);
 }
 
-#title{
+#title {
     margin-top: 2rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -148,8 +157,10 @@ a.btn {
 
 .project {
     display: flex;
-    align-items: center; /* Vertically center items */
-    justify-content: space-between; /* Add space between items */
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Add space between items */
     margin-bottom: 40px;
 }
 
@@ -161,12 +172,14 @@ a.btn {
 }
 
 .project-image {
-    flex: 0 0 45%; /* image width */
-    text-align: center; /* Align image and button to the right */
+    flex: 0 0 45%;
+    /* image width */
+    text-align: center;
+    /* Align image and button to the right */
 }
 
 .project-image img {
-    max-width: 50%; 
+    max-width: 50%;
     height: 250px;
     border-radius: 1.3rem;
     border: solid aliceblue;
@@ -198,21 +211,23 @@ a.btn {
     .intro {
         max-width: 100%;
     }
+
     .project-image img {
-        max-width: 190px; 
+        max-width: 190px;
         height: 120px;
+    }
 }
-}
+
 .ancor {
     color: aliceblue;
-    margin: 10px; 
+    margin: 10px;
 }
 
 #footer {
     margin-top: 150px;
     text-align: center;
     padding: 2rem;
-    background-color: #070216;
+    background-color: #12082f;
     color: #fff;
 }
 
@@ -222,20 +237,21 @@ a.btn {
     color: #fff;
     margin-bottom: 10px;
 }
+
 .testimonial {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; 
-    justify-content: center; 
-    margin-left: 10%; 
-    margin-right: 10%; 
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-right: 5%;
     padding-left: 5%;
 }
 
 h4 {
     font-size: 1.5rem;
-    color: rgb(185, 160, 221); 
-    margin-bottom: 0.5rem; 
+    color: rgb(185, 160, 221);
+    margin-bottom: 0.5rem;
 }
